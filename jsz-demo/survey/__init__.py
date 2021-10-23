@@ -21,7 +21,7 @@ class Player(BasePlayer):
     my_field = models.CurrencyField()
 class Demographics(Page):
     form_model = 'player'
-    form_fields = ['age', 'gender']
+    form_fields = ['one','age', 'gender']
 class CognitiveReflectionTest(Page):
     form_model = 'player'
     form_fields = ['crt_bat', 'crt_widget', 'crt_lake']
